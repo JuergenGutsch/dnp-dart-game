@@ -2,8 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:go.dnp.dart.gui"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Views/MainView.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="c:\Git\go.dnp.dart\go.dnp.dart.core.tests\bin\Debug\go.dnp.dart.core.tests.dll" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-19" time="20:41:39">
-  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="c:\Git\go.dnp.dart" machine-name="GOLT-GUJ" user="Jürgen" user-domain="GOLT-GUJ" />
+<test-results name="C:\Git\go.dnp.dart\go.dnp.dart.core.tests\bin\Debug\go.dnp.dart.core.tests.dll" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-20" time="10:29:01">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Git\go.dnp.dart" machine-name="GOLT-GUJ" user="Jürgen" user-domain="GOLT-GUJ" />
   <culture-info current-culture="de-DE" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="c:\Git\go.dnp.dart\go.dnp.dart.core.tests\bin\Debug\go.dnp.dart.core.tests.dll" executed="True" result="Success" success="True" time="0.158" asserts="0">
+  <test-suite type="Assembly" name="C:\Git\go.dnp.dart\go.dnp.dart.core.tests\bin\Debug\go.dnp.dart.core.tests.dll" executed="True" result="Success" success="True" time="0.138" asserts="0">
     <results>
-      <test-suite type="Namespace" name="go" executed="True" result="Success" success="True" time="0.138" asserts="0">
+      <test-suite type="Namespace" name="go" executed="True" result="Success" success="True" time="0.123" asserts="0">
         <results>
-          <test-suite type="Namespace" name="dnp" executed="True" result="Success" success="True" time="0.138" asserts="0">
+          <test-suite type="Namespace" name="dnp" executed="True" result="Success" success="True" time="0.123" asserts="0">
             <results>
-              <test-suite type="Namespace" name="dart" executed="True" result="Success" success="True" time="0.138" asserts="0">
+              <test-suite type="Namespace" name="dart" executed="True" result="Success" success="True" time="0.122" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="core" executed="True" result="Success" success="True" time="0.137" asserts="0">
+                  <test-suite type="Namespace" name="core" executed="True" result="Success" success="True" time="0.122" asserts="0">
                     <results>
-                      <test-suite type="Namespace" name="tests" executed="True" result="Success" success="True" time="0.137" asserts="0">
+                      <test-suite type="Namespace" name="tests" executed="True" result="Success" success="True" time="0.121" asserts="0">
                         <results>
-                          <test-suite type="TestFixture" name="DartGameTests" executed="True" result="Success" success="True" time="0.135" asserts="0">
+                          <test-suite type="TestFixture" name="DartGameTests" executed="True" result="Success" success="True" time="0.119" asserts="0">
                             <results>
-                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Create_new_game" executed="True" result="Success" success="True" time="0.075" asserts="2" />
-                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Empty_player_list_should_throw_an_error" executed="True" result="Success" success="True" time="0.005" asserts="1" />
-                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Null_player_list_should_throw_an_error" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Create_new_game" executed="True" result="Success" success="True" time="0.050" asserts="2" />
+                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Empty_player_list_should_throw_an_error" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Null_player_list_should_throw_an_error" executed="True" result="Success" success="True" time="0.006" asserts="1" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_6_times_should_move_to_the_first_player" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_once_with_50_sets_score_to_451" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_trice_should_move_to_the_next_player" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_trice_with_50_and_1_and_30_sets_score_to_420" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                              <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_trice_with_50_and_1_and_30_sets_score_to_420" executed="True" result="Success" success="True" time="0.003" asserts="2" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.Update_current_player_twice_with_50_and_1_sets_score_to_450" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.UpdateCurrentPlayer_value_goes_lower_than_0" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.UpdateCurrentPlayer_Value_Goes_to_0_and_wins_the_game" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                              <test-case name="go.dnp.dart.core.tests.DartGameTests.UpdateCurrentPlayer_value_should_not_be_greater_than_50" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="go.dnp.dart.core.tests.DartGameTests.UpdateCurrentPlayer_value_should_not_be_greater_than_50" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                               <test-case name="go.dnp.dart.core.tests.DartGameTests.UpdateCurrentPlayer_value_should_not_be_smaller_than_1" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                             </results>
                           </test-suite>

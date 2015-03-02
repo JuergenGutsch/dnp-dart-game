@@ -41,13 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DartGame.cs" />
+    <Compile Include="Exceptions\PlayerListIsEmptyException.cs" />
+    <Compile Include="Exceptions\PlayerWinsException.cs" />
+    <Compile Include="Exceptions\ScoreToLowException.cs" />
+    <Compile Include="Exceptions\ValueOutOfRangeException.cs" />
     <Compile Include="IDartGame.cs" />
     <Compile Include="Player.cs" />
-    <Compile Include="PlayerListIsEmptyException.cs" />
-    <Compile Include="PlayerWinsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScoreToLowException.cs" />
-    <Compile Include="ValueOutOfRangeException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

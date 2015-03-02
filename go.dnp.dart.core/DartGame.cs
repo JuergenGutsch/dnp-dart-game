@@ -1,48 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using go.dnp.dart.core.Exceptions;
 
 namespace go.dnp.dart.core
 {
     public class DartGame : IDartGame
     {
         private readonly IEnumerator<Player> _enumerator;
-        private readonly IEnumerable<Player> _players;
-        private int _run = 0;
+        private int _run;
 
         public DartGame(IEnumerable<Player> players)
         {
-            if (players == null) throw new ArgumentNullException("players");
-            if (!players.Any()) throw new ArgumentException("players", "Players can't be empty.");
+            if (players == null) throw new ArgumentNullException(nameof(players));
+            if (!players.Any()) throw new ArgumentException("Players can't be empty.", nameof(players));
 
-            _players = players;
-            _enumerator = _players.GetEnumerator();
+            Players = players;
+            _enumerator = Players.GetEnumerator();
 
             if (!_enumerator.MoveNext())
             {
-                throw new ArgumentException("players", "Players can't be empty.");
+                throw new ArgumentException("Players can't be empty.", nameof(players));
             }
         }
 
-        public Player CurrentPlayer
-        {
-            get
-            {
-                return _enumerator.Current;
-            }
-        }
+        public Player CurrentPlayer => _enumerator.Current;
 
-        public IEnumerable<Player> Players
-        {
-            get
-            {
-                return _players;
-            }
-        }
+        public IEnumerable<Player> Players { get; }
 
         public void UpdateCurrentPlayer(int value)
         {
-            if(value > 50 || value < 1)
+            if (value > 50 || value < 1)
             {
                 throw new ValueOutOfRangeException(value, "The value {0} is out of range. Must be between 1 and 50");
             }
@@ -52,7 +40,7 @@ namespace go.dnp.dart.core
             var currentScore = CurrentPlayer.Score;
             currentScore -= value;
 
-            if(currentScore == 0)
+            if (currentScore == 0)
             {
                 throw new PlayerWinsException(CurrentPlayer.Name);
             }

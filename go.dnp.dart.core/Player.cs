@@ -1,15 +1,21 @@
 ﻿using System;
 
-public class Player
+namespace go.dnp.dart.core
 {
-    private string v;
-    
-    public Player(string name)
+    public class Player
     {
-        Name = name;
-        Score = 501;
-    }
+        public Player(string name)
+        {
+            Name = name;
+            Score = 501;
+        }
 
-    public string Name { get; set; }
-    public int Score { get; set; }
+        public string Name { get; set; }
+        public int Score { get; set; }
+
+        public override string ToString()
+        {
+            return String.Format("{0} [{1}]", Name, Score);
+        }
+    }
 }

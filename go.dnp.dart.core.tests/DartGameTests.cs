@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using System;
+using go.dnp.dart.core.Exceptions;
 
 namespace go.dnp.dart.core.tests
 {
